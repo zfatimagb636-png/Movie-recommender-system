@@ -83,7 +83,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # load data
-movies_dict = pickle.load(open('movies_dict.pkl', 'rb'))
+movies_dict = pickle.load(open('movie_dict.pkl', 'rb'))
 movies = pd.DataFrame(movies_dict)
 
 # vectorization
