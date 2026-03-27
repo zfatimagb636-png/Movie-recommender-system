@@ -34,7 +34,7 @@ similarity = compute_similarity()
 ##################################
 
 def fetch_poster(movie_id):
-    response = requests.get('https://api.themoviedb.org/3/movie/{}?api_key=426a705521ced95ad86cc0809efcf726'.format(movie_id))
+    response = requests.get('https://api.themoviedb.org/3/movie/{}?api_key=d8767a97e182fa1441c7c84b36790479'.format(movie_id))
     data = response.json()
     return "https://image.tmdb.org/t/p/w500/" + data['poster_path']
 
